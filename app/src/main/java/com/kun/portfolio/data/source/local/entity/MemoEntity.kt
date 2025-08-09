@@ -1,0 +1,12 @@
+package com.kun.portfolio.data.source.local.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "memo")
+data class MemoEntity(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val title: String,
+    val content: String,
+    val timestamp: Long
+)
