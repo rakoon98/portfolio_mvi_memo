@@ -24,29 +24,29 @@ Intent 는 사용자 이벤트를 처리하는 중요한 개념이지만, 프로
 - **도구**: Android Studio
 
 # 프로젝트 구조
-├── data/               # 외부/내부 데이터 소스 (Room, Retrofit 등)
-│   ├── model/          # DTO
-│   ├── source/         # Local/Remote DataSource
-│   └── repository/     # Repository 구현
+├── data/               # 외부/내부 데이터 소스 (Room, Retrofit 등\
+│   ├── model/          # DTO\
+│   ├── source/         # Local/Remote DataSource\
+│   └── repository/     # Repository 구현\
 
-├── domain/            # 비즈니스 계층
-│   ├── model/         # UI에서 사용하는 순수 모델
-│   └── repository/    # 추상 인터페이스
+├── domain/            # 비즈니스 계층\
+│   ├── model/         # UI에서 사용하는 순수 모델\
+│   └── repository/    # 추상 인터페이스\
 
-├── ui/                # presentation 계층 (page 단위)
-│   └── main/
-│       ├── MainScreen.kt
-│       ├── MainViewModel.kt
-│       └── MainUiState.kt
-│   └── navigation/
-│       └── NavHost.kt
-│       └── PageRouter.kt
+├── ui/                # presentation 계층 (page 단위)\
+│   └── main/\
+│       ├── MainScreen.kt\
+│       ├── MainViewModel.kt\
+│       └── MainUiState.kt\
+│   └── navigation/\
+│       └── NavHost.kt\
+│       └── PageRouter.kt\
 
-├── di/                # Hilt Module
-│   └── AppModule.kt
-│   └── RepositoryModule.kt
+├── di/                # Hilt Module\
+│   └── AppModule.kt\
+│   └── RepositoryModule.kt\
 
-├── util/              # 공통 유틸
-│   └── DateUtil.kt
+├── util/              # 공통 유틸\
+│   └── DateUtil.kt\
 
-└── App.kt             # @HiltAndroidApp
+└── App.kt             # @HiltAndroidApp\
