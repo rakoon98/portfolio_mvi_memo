@@ -24,6 +24,7 @@ Intent 는 사용자 이벤트를 처리하는 중요한 개념이지만, 프로
 - **도구**: Android Studio
 
 # 프로젝트 구조
+<pre>
 ├── data/               # 외부/내부 데이터 소스 (Room, Retrofit 등\
 │    ├── model/          # DTO\
 │    ├── source/         # Local/Remote DataSource\
@@ -50,3 +51,4 @@ Intent 는 사용자 이벤트를 처리하는 중요한 개념이지만, 프로
 │    └── DateUtil.kt\
 
 └── App.kt             # @HiltAndroidApp\
+</pre>
